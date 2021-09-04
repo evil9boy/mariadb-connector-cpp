@@ -90,7 +90,7 @@ protected:
 public:
   int32_t lastValueNull;
   std::vector<sql::bytes>* buf;
-  sql::bytes& fieldBuf;
+  sql::bytes fieldBuf;
   int32_t pos;
   uint32_t length;
 
